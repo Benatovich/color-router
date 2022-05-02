@@ -29,7 +29,7 @@ function ScreenColor() {
     <div>
       {/* Create Route Inside Switch */}
       <Switch>
-        <Route path='/rgb/:r/:g/:b'>
+        <Route exact path='/rgb/:r/:g/:b'>
           <RGB />
         </Route>
       </Switch>
